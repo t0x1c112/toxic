@@ -18,6 +18,8 @@
             background-color: #121212;
             color: #ffffff;
             overflow-x: hidden;
+            min-height: 100vh;
+            padding-bottom: 100px; /* Extra padding to allow for scrolling */
         }
 
         header {
@@ -67,10 +69,10 @@
             background-color: #1f1f1f;
             text-align: center;
             padding: 10px;
-            position: fixed;
             width: 100%;
-            bottom: 0;
             z-index: 1;
+            position: fixed;
+            bottom: 0;
         }
 
         .space {
@@ -101,6 +103,7 @@
             width: 20px;
             height: 20px;
             margin-right: 10px;
+            border-radius: 50%; /* Make the Discord icon circular */
         }
 
         /* Purple lights animation */
@@ -144,6 +147,29 @@
                 opacity: 0;
             }
         }
+
+        /* Add extra space for mobile and PC viewing */
+        #content {
+            padding-bottom: 100px; /* Adjust according to the height of the scrolling text */
+        }
+
+        /* Style for the terms section */
+        #terms {
+            background-color: #1f1f1f;
+            color: #ffffff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        #terms h2 {
+            margin-bottom: 20px;
+        }
+
+        #terms p {
+            margin-bottom: 10px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -172,6 +198,33 @@
                 <img src="discord-icon.jpg" alt="Discord Icon">
                 <p>t0x1c.112</p>
             </div>
+        </section>
+        
+        <section id="terms">
+            <h2>サーバーの規約</h2>
+            <p>Discordサーバー（以下、「サーバー」と称します）を利用する際には、以下の利用規約に同意する必要があります。本規約は、サーバーのオーナーや管理者が随時変更できる場合がありますので、定期的に確認してください。</p>
+            <p><strong>1. コンテンツの利用</strong></p>
+            <p>1.1. サーバーで無料で提供されるコンテンツは、暗号化されたコードのみです。暗号化されていないソースコードを入手するには、購入する必要があります。</p>
+            <p>1.2. ソースコードを購入して利用する場合、当該コンテンツの二次販売は禁止されています。</p>
+            <p><strong>2. 権限と制裁</strong></p>
+            <p>2.1. サーバーのオーナー、管理者、副オーナーには絶対的な権限が与えられています。</p>
+            <p>2.2. タイムアウト、Ban、Kickなどの制裁は、これらのメンバーの独断で行われます。</p>
+            <p><strong>3. 行動規範</strong></p>
+            <p>3.1. サーバー内での言動は、他のメンバーやコミュニティに対して敬意を持って行われる必要があります。</p>
+            <p>3.2. 誹謗中傷、差別、違法行為など、他者に害を与える行為は禁止されています。</p>
+            <p>3.3. サーバー内でメンバー同士の取引や代行は控えてください。</p>
+            <p>3.4. サーバー内で他の Discord サーバーや外部リンクへの宣伝は禁止されています。</p>
+            <p><strong>4. プライバシーとセキュリティ</strong></p>
+            <p>4.1. サーバー内で他のメンバーの個人情報を共有することは禁止されています。</p>
+            <p>4.2. サーバー内でのセキュリティに関する問題が発生した場合、速やかに管理者に報告してください。</p>
+            <p><strong>5. 商品の購入と利用</strong></p>
+            <p>5.1. サーバー内で購入された商品は、個人の利用のみを目的としています。商品の二次販売、二次使用、または転売は固く禁止されています。</p>
+            <p>5.2. 購入された商品は、直接の所有権を持つものではなく、ライセンス形式で提供されます。したがって、サーバーから提供された商品の複製、再配布、または再販は許可されません。</p>
+            <p>5.3. 万が一B4Nされても、サーバーのオーナーは一切の責任を負いません。利用者は自己責任で行動してください。</p>
+            <p><strong>6. その他</strong></p>
+            <p>6.1. サーバー内での議論や問題解決は、公平かつ建設的な方法で行われるべきです。</p>
+            <p>6.2. 本規約に違反する行為が見られた場合、管理者は適切な措置を取る権利を有します。</p>
+            <p>更新日時: [2024年5月04日 18:26]</p>
         </section>
     </main>
     <footer>
